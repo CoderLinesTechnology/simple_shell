@@ -16,7 +16,7 @@ char *_memset(char *s, char b, unsigned int n)
 	return (s);
 }
 
-/*******
+/**
  * ffree - releases a string of strings
  * @pp: string of strings
  */
@@ -31,7 +31,7 @@ void ffree(char **pp)
 	free(a);
 }
 
-/**********
+/**
  * _realloc - redistribute a block of memory
  * @ptr: pointer to preceding malloc'ated block
  * @old_size: byte size of preceding block
